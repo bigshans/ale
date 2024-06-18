@@ -469,6 +469,15 @@ function! ale#lsp_linter#StartLSP(buffer, linter, Callback) abort
         return 0
     endif
 
+    " fix conflict between deno and tsserver
+    if a:linter.lsp is# 'tsserver'
+        let l:deno_project_root = ale#Var(a:buffer, 'deno_lsp_project_root')
+
+        if !empty(deno_project_root)
+            return 0
+        endif
+    endif
+
     let l:options = {
     \   'buffer': a:buffer,
     \   'linter': a:linter,
