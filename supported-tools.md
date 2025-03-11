@@ -400,6 +400,7 @@ formatting.
   * [pandoc](https://pandoc.org)
   * [prettier](https://github.com/prettier/prettier)
   * [proselint](http://proselint.com/)
+  * [pymarkdown](https://github.com/jackdewinter/pymarkdown)
   * [redpen](http://redpen.cc/)
   * [remark-lint](https://github.com/wooorm/remark-lint)
   * [textlint](https://textlint.github.io/)
@@ -454,6 +455,7 @@ formatting.
   * [yamllint](https://yamllint.readthedocs.io/)
 * OpenSCAD
   * [SCA2D](https://gitlab.com/bath_open_instrumentation_group/sca2d) :floppy_disk:
+  * [scadformat](https://github.com/hugheaves/scadformat)
 * Packer (HCL)
   * [packer-fmt-fixer](https://github.com/hashicorp/packer)
 * Pascal
@@ -746,6 +748,8 @@ formatting.
   * [yq](https://github.com/mikefarah/yq)
 * YANG
   * [yang-lsp](https://github.com/theia-ide/yang-lsp)
+* Yara
+  * [yls](https://github.com/avast/yls)
 * Zeek
   * [zeek](http://zeek.org) :floppy_disk:
 * Zig
